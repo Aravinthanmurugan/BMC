@@ -469,7 +469,19 @@ svg {
 .projects--card:hover .projects--modal{
     bottom: 0;
 }
-
+table, th{
+    border: 2px rgb(20, 236, 88);
+    margin-top: 10px;
+}
+td span{
+    color: aqua;
+}
+td{
+    color: #fff;
+    text-align: justify;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /*=contact section=*/
 .contact .section--title{
     color: #fff;
