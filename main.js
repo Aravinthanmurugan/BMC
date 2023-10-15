@@ -79,3 +79,16 @@ const scrollActive = () =>{
     })
 }
 window.addEventListener('scroll',scrollActive)
+/*scroll reveal*/
+const sr = ScrollReveal({
+    origin:'top',
+    distance:'50px',
+    duration:2500,
+    delay:400,
+    reset:true
+});
+sr.reveal(`.home--data,.table`);
+sr.reveal(`.works--data, .about--data,.services--data,.project--data,#contact`,{origin:'left'});
+sr.reveal(`.about--img,.button`,{origin:'right'});
+sr.reveal(`.works--content,.services--card,.projects--card`,{origin:'bottom'});
+sr.reveal(`.home--title`,{origin:'top'})

@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="Shortcut icon" href="bm logo (2).png">
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
     <!--Remixicon-->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
     <!--fontAwsome-->
@@ -27,7 +28,7 @@
             <img src="front logo.png" width="40px">
             <div class="nav--menu" id="nav-menu">
                 <ul class="nav--list">
-                    <li class="nav--item"><a href="#home" class="nav--link active-link">Home</a></li>
+                    <li class="nav--item"><a href="#home" class="nav--link ">Home</a></li>
                     <li class="nav--item"><a href="#services" class="nav--link ">Services</a></li>
                     <li class="nav--item"><a href="#project" class="nav--link ">Projects</a></li>
                     <li class="nav--item"><a href="#about" class="nav--link ">About</a></li>
@@ -38,7 +39,7 @@
                     <i class="ri-close-line"></i>
                 </div>
             </div>
-            <!--close button-->
+            <!--Toggle button-->
             <div class="nav--toggle" id="nav-toggle">
                 <i class="ri-menu-line"></i>
             </div>
@@ -83,11 +84,8 @@
                     <ol class="works--group">
                         <li class="works--items">House</li>
                         <li class="works--items">Pre-Cast</li>
-                        <li class="works--items">Production</li>
-                        <li class="works--items">Erection</li>
                     </ol>
-                    <ol class="works--group" start="5">
-                        <li class="works--items">Construct work</li>
+                    <ol class="works--group" start="3">
                         <li class="works--items">Labour contract work</li>
                         <li class="works--items">Pipe line work</li>
                     </ol>
@@ -133,14 +131,6 @@
                         Precast Construction Technology consists of various precast elements such as walls, beams,
                         slabs, columns, staircase, landing and some customized elements that are standardized and
                         designed for stability, durability and structural integrity of the building.
-                    </p>
-                </article>
-                <article class="services--card">
-                    <i class="fa-solid fa-trowel-bricks services--icon"></i>
-                    <h2 class="services--title">Erection & Production</h2>
-                    <p class="services--description">
-                        The erection of structural steelwork consists of the assembly of steel components into a frame
-                        on site.
                     </p>
                 </article>
                 <article class="services--card">
@@ -209,28 +199,33 @@
                         <a href="#" class="projects--button">Demo<i class="ri-external-link-line"></i></a>
                     </div>
                 </article>
-                <table class="table">
-                    <tr class="section--subtitle">
-                        <th><span>Completed Projects</span></th>
-                        <th><span>On Going Projects</span></th>
-                    </tr>
-                    <tr>
-                        <td>Laying of uPVC HSC Sewer line at Tiruppur </br><span>CLIENT:</span> ECO Protection Engineers Pvt Ltd.
-                        </td>
-                        <td>Erection of Compound wall at Airport, Madurai.</br><span>CLIENT:</span> 5SQ Precast Concrete Solution.</td>
-                    </tr>
-                    <tr>
-                        <td>Production and Erection of precast Hostel Buliding(G+3 Floors) and Transit Accomodation(3
-                            Blocks-G+3 floors) at IIT Jodhpur, Rajasthan. </br><span>CLIENT:</span> PK Gupta Company</td>
-                        <td>Grouting work of Residential Buliding (G+8) at Pondicherry.</br><span>CLIENT:</span>Teemage Precast In.</td>
-                    </tr>
-                    <tr>
-                        <td>Production and Erection of Hostel Block O3, O4 and Y3 (3 Blocks-G+3 floors) at IIT Jodhpur,
-                            Rajasthan. </br><span>CLIENT:</span> KBG Engineers.</td>
-                        <td>---</td>
-                    </tr>
-                </table>
             </div>
+        </section>
+        <section class="table">
+            <table class="table">
+                <tr class="head--title">
+                    <th>Completed Projects </th>
+                    <th> On Going Projects </th>
+                </tr>
+                <tr>
+                    <td>Laying of uPVC HSC Sewer line at Tiruppur </br><span>CLIENT:</span> ECO Protection Engineers Pvt
+                        Ltd.
+                    </td>
+                    <td>Erection of Compound wall at Airport, Madurai.</br><span>CLIENT:</span> 5SQ Precast Concrete
+                        Solution.</td>
+                </tr>
+                <tr>
+                    <td>Production and Erection of precast Hostel Buliding(G+3 Floors) and Transit Accomodation(3
+                        Blocks-G+3 floors) at IIT Jodhpur, Rajasthan. </br><span>CLIENT:</span> PK Gupta Company</td>
+                    <td>Grouting work of Residential Buliding (G+8) at Pondicherry.</br><span>CLIENT:</span>Teemage
+                        Precast In.</td>
+                </tr>
+                <tr>
+                    <td>Production and Erection of Hostel Block O3, O4 and Y3 (3 Blocks-G+3 floors) at IIT Jodhpur,
+                        Rajasthan. </br><span>CLIENT:</span> KBG Engineers.</td>
+                    <td>Up coming........ </td>
+                </tr>
+            </table>
         </section>
         <!--Contact Section-->
         <section class="contact section" id="contact">
@@ -240,7 +235,7 @@
             <h2 class="section--title">
                 Contact
             </h2>
-            <div class="conatct--container container gird">
+            <div class="contact--container container gird">
                 <form action="" class="contact--form" id="contact-form">
                     <div class="contact--group">
                         <input type="text" name="user_name" required placeholder="Enter Your Name"
@@ -278,21 +273,24 @@
                         class="fa fa-google"></i> </a>
 
             </div>
-            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-                <!-- Links -->
-                <h6 class="footer--contact text-uppercase fw-bold mb-4 ">Contact</h6>
-                <p><i class="fas fa-home me-3"></i> NEHRU STREET,Chitlapakam,Chennai-600 004</p>
-                <p>
-                    <i class="fas fa-envelope me-3"></i> balachandran1995@gmail.com
-                </p>
-                <p><i class="fas fa-phone me-3"></i> + 91 978 634 9361</p>
-                <p><i class="fas fa-phone me-3"></i> + 91 967 703 9820</p>
-            </div>
-            <hr>
-            <div class="copyright">
-                © 2023 Copyright: All copyrights are reserved.
+            <div class="fot">
+                <div class="">
+                    <!-- Links -->
+                    <h6 class="footer--contact text-uppercase ">Contact</h6>
+                    <i class="fas fa-home"></i> NEHRU STREET,Chitlapakam,Chennai-600 004.</br>
+    
+                        <i class="fas fa-envelope"></i> balachandran1995@gmail.com</br>
+        
+                    <i class="fas fa-phone "></i> + 91 97863 49361</br>
+                    <i class="fas fa-phone "></i> + 91 96770 39820</br>
+                </div>
             </div>
         </div>
+        <hr>
+        <div class="copyright">
+            © 2023 Copyright: All copyrights are reserved.
+        </div>
+
     </footer>
     <!--Scroll up-->
     <a href="#" class="scrollup" id="scroll-up">
@@ -302,6 +300,8 @@
 
 
     <script src="main.js"></script>
+    <!--Scroll Reveal -->
+    <script src="scrollreveal.js"></script>
     <!--Font Awsome Script-->
     <script src="https://kit.fontawesome.com/4dbb488533.js" crossorigin="anonymous"></script>
     <!--Email js-->
