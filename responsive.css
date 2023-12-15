@@ -10,6 +10,15 @@
     .services--card{
         padding-block: 1.5rem;
     }
+    .home{
+        background: url(home1.svg);
+    }
+    .Project{
+        background: url(wrkssvg.svg);
+    }
+    #about{
+        background: url(abtsvg.svg);
+    }
 }
 /*for Medium Devices*/
 @media screen and (max-width:576px){
@@ -26,6 +35,37 @@
         margin: 8.9px 0;
         font-size: 10px;
     }
+    .home{
+        background: url(home1.svg);
+    }
+    .Project{
+        background: url(wrkssvg.svg);
+    }
+    #about{
+        background: url(abtsvg.svg);
+    }
+    .open-imgpopup{
+        gap: 1px;
+        row-gap: 1px;
+        width: 300px;
+        height: 200px;
+        right: 50px;
+        bottom: 100px;
+        margin: 2px 2px 0px 2px;
+    }
+    .open-imgpopup h2{
+        font-size: 15px;
+    }
+    .popup-img{
+        width: 60px;
+        height: 60px;
+    }
+    .close-img{
+        padding: 5px 5px;
+        margin: 15px 125px;
+    }
+    
+  
 }
 /*min*/
 @media screen and (min-width:600px){
@@ -41,6 +81,7 @@
         grid-template-columns: 450px;
         padding-left: 5rem;
     }
+  
     
 }
 @media screen and (min-width:768px){
@@ -76,6 +117,8 @@
        grid-template-columns: 550px;
        padding-left: 10rem;
     }
+  
+   
 }
 /*Large Device*/
 @media screen and (min-width: 1023px){

@@ -92,3 +92,11 @@ sr.reveal(`.works--data, .about--data,.services--data,.project--data,#contact`,{
 sr.reveal(`.about--img,.button`,{origin:'right'});
 sr.reveal(`.works--content,.services--card,.projects--card`,{origin:'bottom'});
 sr.reveal(`.home--title`,{origin:'top'})
+/**popup page */
+function openImg() {
+    document.getElementById("imgPopup").style.display = "block";
+}
+  
+function closeImg() {
+    document.getElementById("imgPopup").style.display = "none";
+}

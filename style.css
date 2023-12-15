@@ -618,6 +618,41 @@ hr{
 .show-scroll{
     bottom: 3rem;
 }
-/*==*/
+/*=open-imgpopup=*/
+.open-imgpopup{
+    background: url(bgsvg.svg);
+    display: block;
+    position: fixed;
+    bottom:50px;
+    right: 250px;
+    width: 800px;
+    height: 580px;
+    z-index: 1;
+    border: 3px solid #1c1a1a;
+    border-radius: 15px;
+}
+.popup-img{
+    border: 2px solid white;
+    border-radius: 10px;
+    row-gap: 8px;
+    gap: 2px;
+    width: 220px;
+    height: 220px;
+    margin: 10px 20px 0px 15px;
+}
+.close-img{
+      
+    background-color: rgb(79, 6, 92);
+    border-radius: 12px;
+    align-items: center;
+    padding: 15px 15px;
+    margin: 10px 350px;
+   
+}
+.open-imgpopup h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    color: #fff;
+}
 /*==*/
 /*==*/
